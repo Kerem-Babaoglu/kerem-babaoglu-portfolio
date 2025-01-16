@@ -22,9 +22,9 @@ const Hero = () => {
                 {HERO.description}
             </p>
             <a
-              href="../../public/kerem-babaoglu.pdf"
+              href="/kerem-babaoglu.pdf"
               target="_blank"
-              rel="noopener noreferer"
+              rel="noopener noreferrer"
               download
               className="bg-white tracking-wide font-bold rounded-full p-4 text-sm text-stone-800 
               hover:bg-gradient-to-r hover:from-blue-500 hover:to-teal-400 hover:text-white transition duration-300 ease-in-out"
