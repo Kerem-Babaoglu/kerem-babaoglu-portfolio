@@ -11,7 +11,7 @@ const Hero = () => {
         initial={{opacity:0, x: -50}}
         animate={{opacity:1, x: 0}}
         transition={{duration: 1}}
-         className="w-full md:w-1/2 mb-8">
+         className="p-8 w-full md:w-1/2 mb-8">
             <h2 className="my-8 p-2  text-3xl font-bold md:text-5xl lg:text-[5.4rem]">
                 {HERO.name}
             </h2>

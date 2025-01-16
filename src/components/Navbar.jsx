@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
 import { NAVIGATION_LINKS } from "../constants";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
@@ -15,7 +14,7 @@ const Navbar = () => {
     e.preventDefault();
     const targetElement = document.querySelector(href);
     if (targetElement) {
-      const offset = -50;
+      const offset = -85;
       const elementPosition = targetElement.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.scrollY + offset;
 
@@ -83,7 +82,9 @@ const Navbar = () => {
                   });
                 }}
               >
-                <img src={logo} alt="logo" width={90} className="m-2" />
+                  <h1 className="text-transparent uppercase bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 text-xl font-bold tracking-widest drop-shadow-lg">
+                  Kerem Babaoglu
+                </h1>
               </a>
             </div>
             <div className="flex items-center">
