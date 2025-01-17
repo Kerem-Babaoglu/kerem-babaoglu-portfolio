@@ -68,13 +68,13 @@ export const EXPERIENCES = [
   {
     title: "Yazılım Geliştirme Uzmanı",
     company: "Asis Elektronik",
-    duration: "Eylül 2024 - Hala Çalışıyorum",
+    duration: "Eylül 2024 - Halen",
     description:"Yazılım Geliştirme Uzman Yardımcısı pozisyonumdan, başarılı projeler ve gelişen sorumluluklar doğrultusunda Yazılım Geliştirme Uzmanı pozisyonuna terfi ettim."
   },
   {
     title: "Yazılım Geliştirme Uzman Yardımcısı",
     company: "Asis Elektronik",
-    duration: "Nisan 2023 - Hala Çalışıyorum",
+    duration: "Ağustos 2023 - Eylül 2024",
     description: 
     "Şu anda, frontend geliştirme alanında kendimi geliştirmek adına Angular, JavaScript ve Bootstrap teknolojilerini kullanarak iki farklı projede aktif olarak yer almaktayım. Bir projenin frontend tarafını tek başıma geliştirirken, diğer projenin frontend kısmını ekip arkadaşlarımla birlikte yazıyorum. Her iki projede de ekip içinde yer alarak teknik becerilerimi güçlendirme ve gerçek dünya uygulamalarında deneyim kazanma fırsatı buluyorum."
   },
@@ -101,10 +101,6 @@ export const EDUCATION = [
     duration: "Eylül 2017 - Haziran 2023",
     description:
       "Web uygulamaları için kullanıcı deneyimi geliştirme konularında çeşitli projeler gerçekleştirdim. Öğrenim sürecimde ekip çalışmaları, problem çözme ve yazılım mühendisliği alanında güçlü bir temel edindim. Başarıyla mezun oldum.",
-  },
-  {
-    degree: "İstanbul Ticaret Odası Orta Okulu",
-    duration: "Eylül 2012 - Haziran 2016",
   },
 ];
 
